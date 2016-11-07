@@ -1,7 +1,7 @@
 {
   "name": "node_sandbox",
   "version": "1.0.0",
-  "description": "Now that exporting is done, this is a sandbox to create a demo.",
+  "description": "Now that exporting is done, this is a sandbox to create a demo. This project is always under construction",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
