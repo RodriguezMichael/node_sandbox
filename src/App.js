@@ -16,7 +16,6 @@ var App = React.createClass({
 			<div className="contentBody">
 			<h1> Hello, World! </h1>
 				<ExtraComp />
-				<LikeButton />
 			<ButtonEmphasisExample />
 			<ButtonAnimatedExample />
 			</div>
