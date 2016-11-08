@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Nodejs unessential to save
+node_modules
+.project

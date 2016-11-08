@@ -7,17 +7,24 @@ import LikeButton from './LikeButton/LikeButton';
 import ButtonEmphasisExample from './ButtonEmphasisExample';
 import ButtonAnimatedExample from './ButtonAnimatedExample';
 //const SemanticUI = require('./semantic.min.css');
+import HeaderPage from './HeaderPage.js';
+import FooterPage from './FooterPage.js';
 
-
+var _text = {
+	'description' : 'This is a sandbox area to add features and to practice proficiency with ReactJs, NodeJs, and Webpack' 
+};
 var App = React.createClass({
 	render: function() {
 		const stylemap = require('./App.scss');
 		return (
+			<div>
 			<div className="contentBody">
-			<h1> Hello, World! </h1>
-				<ExtraComp />
-			<ButtonEmphasisExample />
-			<ButtonAnimatedExample />
+				<HeaderPage />
+				{_text.description}
+			</div>
+			
+			<FooterPage />
+			
 			</div>
 		);
 	}
